@@ -1,0 +1,10 @@
+Array is a box that can hold a certain amount of 1 type of thing
+Defined in header <array> = requires "#include <array>" (does not require semicolon because it applies to every part of the code)
+Array has a type
+Array has a size/length
+
+
+std::array = 
+
+
+// float does not equal set of integers over natural numbers
