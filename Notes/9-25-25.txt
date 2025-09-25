@@ -1,0 +1,14 @@
+Logic:
+    Using what we know to prove what we don't
+What do we know?
+    - (Algebraic) Arithmetic
+Set Theory:
+    - Building sets
+    - Describing sets
+    - Comparing sets
+Arithmetic
+    - Decribing numbers
+    - Transforming numbers
+    - Comparing numbers
+Combine
+    Set Theory + Algebraic Arithmetic
