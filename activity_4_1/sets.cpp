@@ -6,6 +6,13 @@
 #include <cstdio> //includes library "cstdio" for use of [printf]
 #include <array> //includes library "array" for use of [array]
 #include <string> //includes library "string" for use of [string]
+#include <vector> // Includes library "vector" for use of [vector]
+
+using namespace std;
+
+char vegtible(char a, char b) {
+    return a + b;
+}
 
 int main() {
 
@@ -21,5 +28,17 @@ int main() {
     std::array<std::string, 2> hello = {"hello", "There"};
 
     std::printf("%s\n", hello.at(0).c_str());
+
+    //Vectors
+
+    vector<int> rat = {0,1,2,3,4,5};
+    printf("%d", rat.at(0));
+
+    //Function
+    char a = 127;
+    char b = 1;
+    printf("%d\n", vegtible(a,b));
+
+
     return 0;
 }
