@@ -1,0 +1,44 @@
+Paradigms:
+- *Object-Oriented Programming (OOP) [O]
+- Functional [Lambda]
+- *Imparative [I]
+- -Visuals- (Don't use this)
+
+Imparative:
+- Simple Logic
+- Follows Armithetic
+- Realtime
+- Petabytes
+- Incredibly Small 
+- Goes in sequence
+- No Previous steps, only next steps
+- Can't categorize well
+- Can't do complex tasks well
+- Checking validity
+
+OOP:
+- Define some object (Complex System)
+    - Dog:
+        - 0-4 Legs
+        - Optional Tail
+        - Optional Fur
+        - 0-2 Eyes
+        - Optional Teeth
+        - 0-2 Ears
+        - Quadrapedal
+        - Optional Woof
+- Good for Shallowly Complex Systems (Lego Sets)
+- Ineffecient for Deeply Complex Systems (Cosmos)
+
+Functional:
+- Lambda Calculus
+- ZFC
+- Lambda+
+- Modulo% (Remainder)
+- λ.\f
+
+Linguistics:
+- Structures its logical sentences
+
+Mathematics:
+- Structures logical Sequences
