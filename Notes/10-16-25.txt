@@ -1,0 +1,25 @@
+Pure loops (recursion) math = 
+{
+Counting loops (finite) for(i=0; i<10; i+=1)
+Conditional loops (boolean) while(true) = infinity
+}
+Automata (inferred)
+
+#include <cstdio>
+
+int main() {
+    int a = 10;
+    int b = 1;
+    int c = 5;
+    bool check = true;
+    while(check) {
+        if(a > c) { 
+            c = a+b; 
+        }
+        else { 
+            check = false; 
+        }
+        printf("c is equal to %d", c);
+    }
+    return 0;
+}
