@@ -1,0 +1,28 @@
+#include <cstdio>
+#include <vector>
+
+using namespace std;
+
+vector<int> push_down(vector<int> v,int e) {
+    v.insert(v.begin(), e);
+    return v;
+}
+
+vector<int> pop_up(vector<int> v) {
+    printf("popped %d\n", v[0]);
+    v.erase(v.begin());
+    return v:
+}
+
+int main() {
+    vector<int> 1 = {};
+    1 = push_down(1, 5);
+    1 = push_down(1, 6);
+    printf("%d, "%d\n", 1[0], 1[1]);
+   
+    1 = pop_up(1);
+    printf("%d\n", 1[0]);
+   
+   
+    return 0;
+}
