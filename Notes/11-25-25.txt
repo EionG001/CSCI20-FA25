@@ -7,7 +7,7 @@ using std::printf;
 int main() {
     stack<int> st  = {};
 
-    st.push(9);
+    st.push(9);                         // how to make it calculate with input from the user
     st.push(9998);
     st.push(5);
     st.push(5);
@@ -76,10 +76,25 @@ int division (int l , int r);           {return l / r; }
 ___________________________________________________________________________
 calc.hpp
 ___________________________________________________________________________
+#include<stack>
+#include<cstdio>
 
+using std::stack;
+using std::printf;
 
-prefix stacking
+/*
+stack arithmetic
+single stack
+prefix stacking (unstacked operations)
 
+encode all b/c stack of int
+
+ops:
+    addition = 9999
+    subtraction = 9998
+    multiplication = 9997
+    division = 10001
+*/
 
 
 int main();
@@ -94,3 +109,5 @@ int division (int , int);
 
 //evaluates a loaded stack
 stack<int> evaluate( int );
+
+//Putting these in header file makes it so that the functions can be written in any order
