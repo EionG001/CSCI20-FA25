@@ -15,4 +15,6 @@ class A {
         void load(vector<char>);
         // prints all content of stack
         void st_print();
+        // obfuscation
+        void vec_print(vector<char>);
 };
