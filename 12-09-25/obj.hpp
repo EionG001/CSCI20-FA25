@@ -1,6 +1,8 @@
 #include <cstdio>
 #include <stack>
+
 using std::printf;
+using std::stack;
 
     /*
     stack calculator built using a monolithic object
@@ -20,7 +22,7 @@ using std::printf;
         - 'e' evaluation
     
     - problem: what are the basic operations of this calculator [solved]
-        binary operators on which two numbers will be given (,b)
+        binary operators on which two numbers will be given (a,b)
         - addition: a + b
         - subtraction: a - b 
         - multiplication: a * b
@@ -45,11 +47,11 @@ using std::printf;
         };
     public:
     stack<dicho> st;
-    int addition (int , int)
-    int subtraction (int , int)
-    int multiplication (int , int)
-    int division (int , int)
-    int . (int , int)
+    int addition (int , int);
+    int subtraction (int , int);
+    int multiplication (int , int);
+    int division (int , int);
+    int evaluation (int , int);
     };
 
     
