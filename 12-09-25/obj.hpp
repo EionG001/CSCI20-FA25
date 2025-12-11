@@ -34,24 +34,30 @@ using std::stack;
         - stack of type dicho b/c dicho assist in evaluation operation encoding.
     
     - problem: we need to be able to load this stack (st) in proper order. [unsolved]
+        - get data from user
+            - how: constructor(limits object to single use) or function
+            - where: 
 
     - problem: we need a way to evaluate a full stack. [unsolved]
 
     */
 
-    class Calc{
-    private:
-        struct dicho {
+class Calc{
+private:
+    struct dicho {
         int num;
         char op;
-        };
-    public:
+     };
     stack<dicho> st;
     int addition (int , int);
     int subtraction (int , int);
     int multiplication (int , int);
     int division (int , int);
     int evaluation (int , int);
-    };
+public:
+    Calc(); // intializes values
+    void load_village();
+
+};
 
     
