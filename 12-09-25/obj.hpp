@@ -57,7 +57,10 @@ private:
 public:
     Calc(); // intializes values
     void load_village();
-
+     struct ice_cream(){
+        int flavor;
+        char cone;
+     }
 };
 
     
