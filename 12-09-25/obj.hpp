@@ -1,8 +1,10 @@
 #include <cstdio>
 #include <stack>
+#include <vector>
 
 using std::printf;
 using std::stack;
+using std::vector;
 
     /*
     stack calculator built using a monolithic object
@@ -42,25 +44,24 @@ using std::stack;
 
     */
 
-class Calc{
+class Calc {
 private:
-    struct dicho {
+    struct clowns {
         int num;
         char op;
-     };
-    stack<dicho> st;
-    int addition (int , int);
-    int subtraction (int , int);
-    int multiplication (int , int);
-    int division (int , int);
-    int evaluation (int , int);
+    };
+    stack<clowns> clown_bakery;
+    int addition(int , int);
+    int subtraction(int , int);
+    int multiplication(int , int);
+    int division(int , int);
 public:
     Calc(); // intializes values
-    void load_village();
-     struct ice_cream(){
+     struct ice_cream {
         int flavor;
         char cone;
-     }
+     };
+    void german_village_clown_school(vector<ice_cream>);
 };
 
     
