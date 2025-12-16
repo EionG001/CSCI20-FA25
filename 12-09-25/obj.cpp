@@ -29,7 +29,7 @@ vector<Clownmageddon::clowns> Clownmageddon::map_ice_clown(vector<ice_cream> x) 
         // for each ice cream, make a new clown
         clowns c(x.at(i).flavor, x.at(i).cone);
         shoes.push_back(c);
-        printf("%d, %c", c.nose, c.flower);
+        printf("%d, %c\n", c.nose, c.flower);
     }
     return shoes;
 }

@@ -72,7 +72,7 @@ public:
      };
      // tool function
     vector<clowns> map_ice_clown(vector<ice_cream>);
-    Clownmageddon(); // intializes values
+    //Clownmageddon(); // intializes values
 
     // loads the stack
     void german_village_clown_school(vector<ice_cream>);
