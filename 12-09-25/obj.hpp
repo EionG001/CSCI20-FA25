@@ -44,24 +44,36 @@ using std::vector;
 
     */
 
-class Calc {
+class Clownmageddon {
 private:
     struct clowns {
-        int num;
-        char op;
+        int nose;
+        char flower;
+        clowns(int a, char b) {
+            nose = a;
+            flower = b;
+        }
+
     };
     stack<clowns> clown_bakery;
     int addition(int , int);
     int subtraction(int , int);
     int multiplication(int , int);
     int division(int , int);
+    
 public:
-    Calc(); // intializes values
      struct ice_cream {
         int flavor;
         char cone;
+        ice_cream(int a, char b) {
+            flavor = a;
+            cone = b;
+        }
      };
+     // tool function
+    vector<clowns> map_ice_clown(vector<ice_cream>);
+    Clownmageddon(); // intializes values
+
+    // loads the stack
     void german_village_clown_school(vector<ice_cream>);
 };
-
-    
