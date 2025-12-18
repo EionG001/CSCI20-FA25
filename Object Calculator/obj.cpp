@@ -18,7 +18,10 @@ int main() {
 }
 
 void Clownmageddon::german_village_clown_school(vector<ice_cream> x) {
-    map_ice_clown(x);
+    vector<Clownmageddon::clowns> mapping = map_ice_clown(x);
+    for (int i=0; i<x.size(); i<=0; i=i-1) {
+        clown_bakery.push(mapping.at(i));
+    }
     return ;
 }
 

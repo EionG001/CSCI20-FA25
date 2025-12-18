@@ -35,7 +35,7 @@ using std::vector;
         stack<dicho> st.
         - stack of type dicho b/c dicho assist in evaluation operation encoding.
     
-    - problem: we need to be able to load this stack (st) in proper order. [unsolved]
+    - problem: we need to be able to load this stack (st) in proper order. [solved]
         - get data from user
             - how: constructor(limits object to single use) or function
             - where: 
